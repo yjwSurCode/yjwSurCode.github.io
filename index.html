@@ -1,1 +1,71 @@
-55555555555555555555
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>大润发优鲜平台商户服务协议_补充协议-特批扣点</title>
+</head>
+<body>
+<style type="text/css">
+    /* 页面重置 */
+    html, body, div, span,td,tr,th,td,
+    h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+    a, del,  em, img, ins, dl, dt, dd, ol, ul, li
+    {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-size: 14px;
+        font-family:Arial, Helvetica, sans-serif;
+        font-weight: normal;
+        vertical-align: baseline;
+    }
+
+    .warpadd{margin:0 auto;  width: 694px;  margin-top: 10px;}
+    .warpadd h2{color: #000;font-size: 20px;text-align: center;padding: 10px 0 10px 0;}
+    .warpadd .num{text-align: right;padding-right: 5px;height: 30px;line-height: 30px;}
+    .warpadd .business{text-align: left;height: 24px;line-height: 24px;}
+    .warpadd .frame{border:1px solid #ccc;padding: 5px;margin-top: 15px;}
+    .warpadd p{line-height: 24px;}
+    .warpadd .content{text-indent: 25px;}
+    .warpadd table{border-collapse: collapse;border-spacing: 0;width:100%; text-align: left;margin: 10px 0 10px 0;}
+    .warpadd td,tr,th{border:1px solid #ccc;line-height: 24px;padding: 5px;background-color: #fff; vertical-align: middle;}
+    .warpadd .content-l{width: 50%;float: left;}
+    .warpadd .content-l p{line-height: 24px;}
+    .warpadd .content-l .xian{height: 23px;border-bottom: 1px solid #000000;width: 280px;}
+    .warpadd .mb20{margin-bottom: 20px;}
+</style>
+<div class="warpadd">
+    <h2>补充协议</h2>
+    <p class="num" th:text="'协议编号：'+${store.contractId}+'    V'+${store.contractVersion}"></p>
+    <p class="business" th:text="'甲方：'+${store.merchantName}"></p>
+    <p class="business">乙方：上海润国信息技术有限公司</p>
+    <div class="frame">
+        <p><b>特别提醒：</b></p>
+        <p>【默认签约】甲方使用大润发优鲜平台服务的任何行为（包括但不限于：账户的申请、登陆、修改、使用等）均表明甲方自愿接受本协议的全部内容并受其约束，不得以任何理由包括但不限于未能认真阅读本协议等作为纠纷的抗辩理由。</p>
+        <p>【签约动作】本协议一经甲方或甲方授权的任何人点击确认或由甲方与大润发优鲜平台另行书面签署即于甲方与大润发优鲜平台之间发生法律约束力，对于本协议生效前已经使用大润发优鲜平台服务的商户，本协议构成协议方之间就使用大润发优鲜平台服务所达成协议的修订和补充。阅读本协议的过程中，如甲方不同意本协议的任何内容或无法准确理解条款含义及解释，甲方应立即停止签约程序，不要进行后续操作，并停止使用本协议项下的任何服务。</p>
+    </div>
+    <p class="content" th:text="'本协议中的所有术语,除非另有说明，否则其定义与双方就'+${store.contractStarttime}+'签订的《大润发优鲜平台商户服务协议》（以下称“原协议”）中的定义相同。鉴于：原协议，现今甲、乙双方在自愿平等的基础上协商一致，就原协议达成如下补充协议：'"></p>
+    <p><b>第一条:</b>甲、乙双方同意就《大润发优鲜平台商户服务协议》（以下简称原协议）所约定的服务门店进行调整，具体新增门店明细如下：</p>
+    <table>
+        <tr>
+            <th>特批扣点门店</th>
+            <th>原服务费用（%）</th>
+            <th>调整后服务费用（%）</th>
+            <th>特批扣点开始日期</th>
+        </tr>
+        <tr th:each="deductions:${store.deductions}">
+            <td th:text="${deductions.storeName}"></td>
+            <td th:text="${deductions.originalDeductionRate != null?deductions.originalDeductionRate+'%':''}"></td>
+            <td th:text="${deductions.deductionRateStr} +'%'"></td>
+            <td th:text="${#dates.format(deductions.effectiveDate,'yyyy-MM-dd')}"></td>
+        </tr>
+    </table>
+    <p><b>第二条:</b>除此补充协议所约定的更改内容，其它部分均按原协议内容执行。</p>
+    <p class="content mb20">本协议一式三份，甲方持壹份，乙方持贰份。经甲、乙双方签字盖章后生效。本协议生效后，即成为《大润发优鲜平台商户服务协议》不可分割的组成部分，与原协议具有同等的法律效力。除本协议中明确所作修改的条款之外，原协议的其余部分应完全继续有效。</p>
+    <div class="content-l">
+        <p>(公司公章) </p>
+        <p class="xian mb20"></p>
+        <p th:text="'日期：'+${store.headquarterTime}"></p>
+    </div>
+</div>
+</body>
