@@ -1,0 +1,686 @@
+{
+  "rsCode": "00000000",
+  "msg": "Success",
+  "body": {
+    "tableList": [{
+      "id":1,
+      "name":"张三",
+      "domainAccount":"san.zhang",
+      "phoneNo":"15001844539",
+      "status":"1",
+      "statusName":"已入职",
+      "memo":"备注"
+    },{
+      "id":2,
+      "name":"李四",
+      "domainAccount":"si.li",
+      "phoneNo":"15001844538",
+      "status":"2",
+      "statusName":"未入职",
+      "memo":"备注"
+    },{
+      "id":3,
+      "name":"王二",
+      "domainAccount":"er.wang",
+      "phoneNo":"15001844535",
+      "status":"3",
+      "statusName":"拒绝入职",
+      "memo":"文字太长添加show-overflow-tooltip属性，备注文字太长添加show-overflow-tooltip属性，备注文字太长添加show-overflow-tooltip属性，"
+    }],
+    "pageNum": 1,
+    "pageSize": 10,
+    "pages": 5,
+    "total": 46
+  }
+}
+{
+    "bigRound": {
+        "createTime": 1670990671157,
+        "currentRound": "PREFLOP",
+        "id": 13,
+        "moneyPond": 150,
+        "playingPlayers": [
+            {
+                "actionList": [
+                    "FOLD",
+                    "BET",
+                    "CALL"
+                ],
+                "blind": 0,
+                "confirmPokerList": [],
+                "createTime": 1670855210462,
+                "handCardList": [
+                    {
+                        "createTime": 1670990671169,
+                        "detail": "方块K",
+                        "id": 49,
+                        "number": 13,
+                        "playingCardId": 38,
+                        "suit": 3,
+                        "updateTime": 1670990671169,
+                        "userRecordId": 32
+                    },
+                    {
+                        "createTime": 1670990671172,
+                        "detail": "梅花Q",
+                        "id": 50,
+                        "number": 12,
+                        "playingCardId": 50,
+                        "suit": 2,
+                        "updateTime": 1670990671172,
+                        "userRecordId": 32
+                    }
+                ],
+                "id": 32,
+                "pokerLevel": null,
+                "rankNum": null,
+                "roomId": 1,
+                "round": {
+                    "actionRight": "BET",
+                    "balance": 9550,
+                    "bigRoundId": 20,
+                    "createTime": 1670855877196,
+                    "id": 133,
+                    "quantity": 50,
+                    "roundName": "PREFLOP",
+                    "totalRoundQuantity": 50,
+                    "updateTime": 1670855877196,
+                    "userRecordId": 32
+                },
+                "status": null,
+                "updateTime": 1670855210462,
+                "userId": 1
+            },
+            {
+                "actionList": [],
+                "blind": 1,
+                "confirmPokerList": [],
+                "createTime": 1670990166002,
+                "handCardList": [
+                    {
+                        "createTime": 1670990671174,
+                        "detail": "黑桃K",
+                        "id": 51,
+                        "number": 13,
+                        "playingCardId": 12,
+                        "suit": 5,
+                        "updateTime": 1670990671174,
+                        "userRecordId": 40
+                    },
+                    {
+                        "createTime": 1670990671176,
+                        "detail": "梅花4",
+                        "id": 52,
+                        "number": 4,
+                        "playingCardId": 42,
+                        "suit": 2,
+                        "updateTime": 1670990671176,
+                        "userRecordId": 40
+                    }
+                ],
+                "id": 40,
+                "pokerLevel": null,
+                "rankNum": null,
+                "roomId": 1,
+                "round": {
+                    "actionRight": "BET",
+                    "balance": 9950,
+                    "bigRoundId": 13,
+                    "createTime": 1670990671194,
+                    "id": 20,
+                    "quantity": 50,
+                    "roundName": "PREFLOP",
+                    "totalRoundQuantity": 50,
+                    "updateTime": 1670990671194,
+                    "userRecordId": 40
+                },
+                "status": null,
+                "updateTime": 1670990166003,
+                "userId": 1
+            },
+            {
+                "actionList": [
+                    "FOLD",
+                    "BET",
+                    "CALL"
+                ],
+                "blind": 0,
+                "confirmPokerList": [],
+                "createTime": 1670990176451,
+                "handCardList": [
+                    {
+                        "createTime": 1670990671183,
+                        "detail": "黑桃A",
+                        "id": 55,
+                        "number": 14,
+                        "playingCardId": 13,
+                        "suit": 5,
+                        "updateTime": 1670990671183,
+                        "userRecordId": 42
+                    },
+                    {
+                        "createTime": 1670990671186,
+                        "detail": "梅花6",
+                        "id": 56,
+                        "number": 6,
+                        "playingCardId": 44,
+                        "suit": 2,
+                        "updateTime": 1670990671186,
+                        "userRecordId": 42
+                    }
+                ],
+                "id": 42,
+                "pokerLevel": null,
+                "rankNum": null,
+                "roomId": 1,
+                "round": null,
+                "status": null,
+                "updateTime": 1670990176451,
+                "userId": 3
+            }
+        ],
+        "publicCardList": [],
+        "roomId": 1,
+        "updateTime": 1670990671197
+    },
+    "createTime": 1669519477000,
+    "currActionPlayer": {
+        "actionList": [
+            "FOLD",
+            "BET",
+            "CALL"
+        ],
+        "blind": 0,
+        "confirmPokerList": [],
+        "createTime": 1670990176451,
+        "handCardList": [
+            {
+                "createTime": 1670990671183,
+                "detail": "黑桃A",
+                "id": 55,
+                "number": 14,
+                "playingCardId": 13,
+                "suit": 5,
+                "updateTime": 1670990671183,
+                "userRecordId": 42
+            },
+            {
+                "createTime": 1670990671186,
+                "detail": "梅花6",
+                "id": 56,
+                "number": 6,
+                "playingCardId": 44,
+                "suit": 2,
+                "updateTime": 1670990671186,
+                "userRecordId": 42
+            }
+        ],
+        "id": 42,
+        "pokerLevel": null,
+        "rankNum": null,
+        "roomId": 1,
+        "round": null,
+        "status": null,
+        "updateTime": 1670990176451,
+        "userId": 3
+    },
+    "id": 1,
+    "minimumMoneyId": 100,  //底注
+    "name": "测试场1",
+    "roomPlayerMap": {
+        "ONE": {
+            "actionList": [
+                "FOLD",
+                "BET",
+                "CALL"
+            ],
+            "blind": 0,
+            "confirmPokerList": [],
+            "createTime": 1670855210462,
+            "handCardList": [
+                {
+                    "createTime": 1670990671169,
+                    "detail": "方块K",
+                    "id": 49,
+                    "number": 13,
+                    "playingCardId": 38,
+                    "suit": 3,
+                    "updateTime": 1670990671169,
+                    "userRecordId": 32
+                },
+                {
+                    "createTime": 1670990671172,
+                    "detail": "梅花Q",
+                    "id": 50,
+                    "number": 12,
+                    "playingCardId": 50,
+                    "suit": 2,
+                    "updateTime": 1670990671172,
+                    "userRecordId": 32
+                }
+            ],
+            "id": 32,
+            "pokerLevel": null,
+            "rankNum": null,
+            "roomId": 1,
+            "round": {
+                "actionRight": "BET",
+                "balance": 9550,
+                "bigRoundId": 20,
+                "createTime": 1670855877196,
+                "id": 133,
+                "quantity": 50,
+                "roundName": "PREFLOP",
+                "totalRoundQuantity": 50,
+                "updateTime": 1670855877196,
+                "userRecordId": 32
+            },
+            "status": null,
+            "updateTime": 1670855210462,
+            "userId": 1
+        },
+        "TWO": {
+            "actionList": [],
+            "blind": 1,
+            "confirmPokerList": [],
+            "createTime": 1670990166002,
+            "handCardList": [
+                {
+                    "createTime": 1670990671174,
+                    "detail": "黑桃K",
+                    "id": 51,
+                    "number": 13,
+                    "playingCardId": 12,
+                    "suit": 5,
+                    "updateTime": 1670990671174,
+                    "userRecordId": 40
+                },
+                {
+                    "createTime": 1670990671176,
+                    "detail": "梅花4",
+                    "id": 52,
+                    "number": 4,
+                    "playingCardId": 42,
+                    "suit": 2,
+                    "updateTime": 1670990671176,
+                    "userRecordId": 40
+                }
+            ],
+            "id": 40,
+            "pokerLevel": null,
+            "rankNum": null,
+            "roomId": 1,
+            "round": {
+                "actionRight": "BET",
+                "balance": 9950,
+                "bigRoundId": 13,
+                "createTime": 1670990671194,
+                "id": 20,
+                "quantity": 50,
+                "roundName": "PREFLOP",
+                "totalRoundQuantity": 50,
+                "updateTime": 1670990671194,
+                "userRecordId": 40
+            },
+            "status": null,
+            "updateTime": 1670990166003,
+            "userId": 1
+        },
+        "THREE": {
+            "actionList": [],
+            "blind": 0,
+            "confirmPokerList": [],
+            "createTime": 1670998762266,
+            "handCardList": [],
+            "id": 43,
+            "pokerLevel": null,
+            "rankNum": null,
+            "roomId": 1,
+            "round": null,
+            "status": null,
+            "updateTime": 1670998762266,
+            "userId": 3
+        },
+        "FOUR": {
+            "actionList": [
+                "FOLD",
+                "BET",
+                "CALL"
+            ],
+            "blind": 0,
+            "confirmPokerList": [],
+            "createTime": 1670990176451,
+            "handCardList": [
+                {
+                    "createTime": 1670990671183,
+                    "detail": "黑桃A",
+                    "id": 55,
+                    "number": 14,
+                    "playingCardId": 13,
+                    "suit": 5,
+                    "updateTime": 1670990671183,
+                    "userRecordId": 42
+                },
+                {
+                    "createTime": 1670990671186,
+                    "detail": "梅花6",
+                    "id": 56,
+                    "number": 6,
+                    "playingCardId": 44,
+                    "suit": 2,
+                    "updateTime": 1670990671186,
+                    "userRecordId": 42
+                }
+            ],
+            "id": 42,
+            "pokerLevel": null,
+            "rankNum": null,
+            "roomId": 1,
+            "round": null,
+            "status": null,
+            "updateTime": 1670990176451,
+            "userId": 3
+        },
+        "FIVE": {
+            "actionList": [],
+            "blind": 0,
+            "confirmPokerList": [],
+            "createTime": 1670999013989,
+            "handCardList": [],
+            "id": 45,
+            "pokerLevel": null,
+            "rankNum": null,
+            "roomId": 1,
+            "round": null,
+            "status": null,
+            "updateTime": 1670999013989,
+            "userId": 2
+        },
+        "SIX": {
+            "actionList": [],
+            "blind": 0,
+            "confirmPokerList": [],
+            "createTime": 1670999113694,
+            "handCardList": [],
+            "id": 46,
+            "pokerLevel": null,
+            "rankNum": null,
+            "roomId": 1,
+            "round": null,
+            "status": null,
+            "updateTime": 1670999113694,
+            "userId": 3
+        }
+    },
+    "roomPokers": [
+        {
+            "detail": "方块8",
+            "id": 33,
+            "number": 8,
+            "suit": 3
+        },
+        {
+            "detail": "黑桃9",
+            "id": 8,
+            "number": 9,
+            "suit": 5
+        },
+        {
+            "detail": "黑桃10",
+            "id": 9,
+            "number": 10,
+            "suit": 5
+        },
+        {
+            "detail": "红桃6",
+            "id": 18,
+            "number": 6,
+            "suit": 4
+        },
+        {
+            "detail": "方块5",
+            "id": 30,
+            "number": 5,
+            "suit": 3
+        },
+        {
+            "detail": "梅花7",
+            "id": 45,
+            "number": 7,
+            "suit": 2
+        },
+        {
+            "detail": "方块10",
+            "id": 35,
+            "number": 10,
+            "suit": 3
+        },
+        {
+            "detail": "红桃J",
+            "id": 23,
+            "number": 11,
+            "suit": 4
+        },
+        {
+            "detail": "黑桃5",
+            "id": 4,
+            "number": 5,
+            "suit": 5
+        },
+        {
+            "detail": "方块4",
+            "id": 29,
+            "number": 4,
+            "suit": 3
+        },
+        {
+            "detail": "红桃2",
+            "id": 14,
+            "number": 2,
+            "suit": 4
+        },
+        {
+            "detail": "红桃7",
+            "id": 19,
+            "number": 7,
+            "suit": 4
+        },
+        {
+            "detail": "梅花8",
+            "id": 46,
+            "number": 8,
+            "suit": 2
+        },
+        {
+            "detail": "黑桃8",
+            "id": 7,
+            "number": 8,
+            "suit": 5
+        },
+        {
+            "detail": "方块3",
+            "id": 28,
+            "number": 3,
+            "suit": 3
+        },
+        {
+            "detail": "红桃3",
+            "id": 15,
+            "number": 3,
+            "suit": 4
+        },
+        {
+            "detail": "黑桃2",
+            "id": 1,
+            "number": 2,
+            "suit": 5
+        },
+        {
+            "detail": "方块7",
+            "id": 32,
+            "number": 7,
+            "suit": 3
+        },
+        {
+            "detail": "梅花J",
+            "id": 49,
+            "number": 11,
+            "suit": 2
+        },
+        {
+            "detail": "梅花5",
+            "id": 43,
+            "number": 5,
+            "suit": 2
+        },
+        {
+            "detail": "红桃9",
+            "id": 21,
+            "number": 9,
+            "suit": 4
+        },
+        {
+            "detail": "红桃K",
+            "id": 25,
+            "number": 13,
+            "suit": 4
+        },
+        {
+            "detail": "方块J",
+            "id": 36,
+            "number": 11,
+            "suit": 3
+        },
+        {
+            "detail": "黑桃4",
+            "id": 3,
+            "number": 4,
+            "suit": 5
+        },
+        {
+            "detail": "黑桃6",
+            "id": 5,
+            "number": 6,
+            "suit": 5
+        },
+        {
+            "detail": "梅花A",
+            "id": 52,
+            "number": 14,
+            "suit": 2
+        },
+        {
+            "detail": "方块6",
+            "id": 31,
+            "number": 6,
+            "suit": 3
+        },
+        {
+            "detail": "梅花10",
+            "id": 48,
+            "number": 10,
+            "suit": 2
+        },
+        {
+            "detail": "梅花9",
+            "id": 47,
+            "number": 9,
+            "suit": 2
+        },
+        {
+            "detail": "红桃5",
+            "id": 17,
+            "number": 5,
+            "suit": 4
+        },
+        {
+            "detail": "方块Q",
+            "id": 37,
+            "number": 12,
+            "suit": 3
+        },
+        {
+            "detail": "梅花3",
+            "id": 41,
+            "number": 3,
+            "suit": 2
+        },
+        {
+            "detail": "方块A",
+            "id": 39,
+            "number": 14,
+            "suit": 3
+        },
+        {
+            "detail": "黑桃3",
+            "id": 2,
+            "number": 3,
+            "suit": 5
+        },
+        {
+            "detail": "方块2",
+            "id": 27,
+            "number": 2,
+            "suit": 3
+        },
+        {
+            "detail": "黑桃7",
+            "id": 6,
+            "number": 7,
+            "suit": 5
+        },
+        {
+            "detail": "梅花K",
+            "id": 51,
+            "number": 13,
+            "suit": 2
+        },
+        {
+            "detail": "红桃Q",
+            "id": 24,
+            "number": 12,
+            "suit": 4
+        },
+        {
+            "detail": "红桃A",
+            "id": 26,
+            "number": 14,
+            "suit": 4
+        },
+        {
+            "detail": "方块9",
+            "id": 34,
+            "number": 9,
+            "suit": 3
+        },
+        {
+            "detail": "梅花2",
+            "id": 40,
+            "number": 2,
+            "suit": 2
+        },
+        {
+            "detail": "黑桃J",
+            "id": 10,
+            "number": 11,
+            "suit": 5
+        },
+        {
+            "detail": "红桃10",
+            "id": 22,
+            "number": 10,
+            "suit": 4
+        },
+        {
+            "detail": "黑桃Q",
+            "id": 11,
+            "number": 12,
+            "suit": 5
+        }
+    ],
+    "status": 0,
+    "type": 1,
+    "updateTime": 1669519477000,
+    "userNumber": "0",
+    "winUserId": null
+}
